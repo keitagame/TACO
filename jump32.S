@@ -1,8 +1,8 @@
 .section .text.boot
 .code32
-.global start32
+.global start
 
-start32:
+start:
     # GDTロード（32bit用）
     lgdt gdt_pointer
 

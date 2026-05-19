@@ -1,2 +1,2 @@
 #!/bin/sh
-rm *.o *.elf
+rm *.o *.elf *.iso

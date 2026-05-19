@@ -1,7 +1,7 @@
 .section .text.boot
 .code32
-.global switch_to_long_mode
-switch_to_long_mode:
+.global start
+start:
     # 1. ページテーブルのベースをCR3にロード
     movl $page_table_l4, %eax     
     movl %eax, %cr3
