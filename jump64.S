@@ -43,8 +43,8 @@ entry_64bit:
 
     # Cの関数に渡す引数をレジスタにセット（System V ABI）
     movq $0x36D32896, %rdi  
-    movq $0x00000000, %rsi  
-
+    #movq $0x00000000, %rsi  
+    movl %ebx, %esi 
     # 外部のC関数（kernel_main）を呼び出す
     leaq kernel_main(%rip), %rax
     call *%rax
