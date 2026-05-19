@@ -1,4 +1,4 @@
-<img src="TACO.png" width=200>
+<img src="TACO.png" width=200></img>
 # TACO
 TACO は Linux システム向けに設計された 極小・高速・シンプル なパッケージマネージャです。<br>
 ```tar.gz``` ベースのパッケージ形式と最小限のメタデータを採用し、<br>
